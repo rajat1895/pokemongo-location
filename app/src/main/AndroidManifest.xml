@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rajat.pokemongolocation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="com.example.rajat.pokemongolocation.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TopLocationsActivity">
+            <intent-filter>
+                <action android:name="com.example.rajat.pokemongolocation.TopLocationsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.pokemongolocation.MainActivity" />
+        </activity>
+        <activity android:name=".DelhiActivity">
+            <intent-filter>
+                <action android:name="com.example.rajat.pokemongolocation.DelhiActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.pokemongolocation.MainActivity" />
+        </activity>
+        <activity android:name=".NcrActivity">
+            <intent-filter>
+                <action android:name="com.example.rajat.pokemongolocation.NcrActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.pokemongolocation.MainActivity" />
+        </activity>
+        <activity android:name=".PokeinfoActivity">
+            <intent-filter>
+                <action android:name="com.example.rajat.pokemongolocation.PokeinfoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.pokemongolocation.MainActivity" />
+        </activity>
+        <activity android:name=".InfoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.pokemongolocation.MainActivity" />
+        </activity>
+        <activity android:name=".SplashLogo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SubmitInfoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.pokemongolocation.MainActivity" />
+        </activity>
+        <activity android:name=".ContatctUsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.pokemongolocation.MainActivity" />
+        </activity>
+        <activity android:name=".DeerParkActivity" />
+        <activity android:name=".NehruParkActivity" />
+        <activity android:name=".SafdarjungTombActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rajat.pokemongolocation.TopLocationsActivity" />
+        </activity>
+        <activity android:name=".SelectCityWalkActivity" />
+        <activity android:name=".LodiGardenActivity" />
+        <activity android:name=".GurgaonActivity" />
+        <activity android:name=".FaridabadActivity" />
+        <activity android:name=".NoidaActivity" />
+        <activity android:name=".GhaziabadActivity" />
+        <activity android:name=".RedFortActivity" />
+        <activity android:name=".QutubMinarActivity" />
+        <activity android:name=".PuranaQillaActivity" />
+        <activity android:name=".CyberHubActivity" />
+        <activity android:name=".SaketActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
